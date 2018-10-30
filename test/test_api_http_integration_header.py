@@ -32,7 +32,7 @@ class TestApiHTTPIntegrationHeader(unittest.TestCase):
     def testApiHTTPIntegrationHeader(self):
         """Test ApiHTTPIntegrationHeader"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_http_integration_header.ApiHTTPIntegrationHeader()  # noqa: E501
+        # model = lorawan_client.models.api_http_integration_header.ApiHTTPIntegrationHeader()  # noqa: E501
         pass
 
 

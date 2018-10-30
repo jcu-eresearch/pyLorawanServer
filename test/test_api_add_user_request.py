@@ -32,7 +32,7 @@ class TestApiAddUserRequest(unittest.TestCase):
     def testApiAddUserRequest(self):
         """Test ApiAddUserRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_add_user_request.ApiAddUserRequest()  # noqa: E501
+        # model = lorawan_client.models.api_add_user_request.ApiAddUserRequest()  # noqa: E501
         pass
 
 

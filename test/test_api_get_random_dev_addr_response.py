@@ -32,7 +32,7 @@ class TestApiGetRandomDevAddrResponse(unittest.TestCase):
     def testApiGetRandomDevAddrResponse(self):
         """Test ApiGetRandomDevAddrResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_get_random_dev_addr_response.ApiGetRandomDevAddrResponse()  # noqa: E501
+        # model = lorawan_client.models.api_get_random_dev_addr_response.ApiGetRandomDevAddrResponse()  # noqa: E501
         pass
 
 

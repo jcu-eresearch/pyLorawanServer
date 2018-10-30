@@ -32,7 +32,7 @@ class TestApiCreateNodeRequest(unittest.TestCase):
     def testApiCreateNodeRequest(self):
         """Test ApiCreateNodeRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_create_node_request.ApiCreateNodeRequest()  # noqa: E501
+        # model = lorawan_client.models.api_create_node_request.ApiCreateNodeRequest()  # noqa: E501
         pass
 
 

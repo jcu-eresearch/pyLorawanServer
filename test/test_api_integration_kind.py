@@ -32,7 +32,7 @@ class TestApiIntegrationKind(unittest.TestCase):
     def testApiIntegrationKind(self):
         """Test ApiIntegrationKind"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_integration_kind.ApiIntegrationKind()  # noqa: E501
+        # model = lorawan_client.models.api_integration_kind.ApiIntegrationKind()  # noqa: E501
         pass
 
 

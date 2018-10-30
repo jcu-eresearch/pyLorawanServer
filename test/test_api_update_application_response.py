@@ -32,7 +32,7 @@ class TestApiUpdateApplicationResponse(unittest.TestCase):
     def testApiUpdateApplicationResponse(self):
         """Test ApiUpdateApplicationResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_update_application_response.ApiUpdateApplicationResponse()  # noqa: E501
+        # model = lorawan_client.models.api_update_application_response.ApiUpdateApplicationResponse()  # noqa: E501
         pass
 
 

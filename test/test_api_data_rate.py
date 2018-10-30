@@ -32,7 +32,7 @@ class TestApiDataRate(unittest.TestCase):
     def testApiDataRate(self):
         """Test ApiDataRate"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_data_rate.ApiDataRate()  # noqa: E501
+        # model = lorawan_client.models.api_data_rate.ApiDataRate()  # noqa: E501
         pass
 
 

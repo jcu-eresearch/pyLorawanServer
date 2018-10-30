@@ -32,7 +32,7 @@ class TestApiTXInfo(unittest.TestCase):
     def testApiTXInfo(self):
         """Test ApiTXInfo"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_tx_info.ApiTXInfo()  # noqa: E501
+        # model = lorawan_client.models.api_tx_info.ApiTXInfo()  # noqa: E501
         pass
 
 

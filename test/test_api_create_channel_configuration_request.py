@@ -32,7 +32,7 @@ class TestApiCreateChannelConfigurationRequest(unittest.TestCase):
     def testApiCreateChannelConfigurationRequest(self):
         """Test ApiCreateChannelConfigurationRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_create_channel_configuration_request.ApiCreateChannelConfigurationRequest()  # noqa: E501
+        # model = lorawan_client.models.api_create_channel_configuration_request.ApiCreateChannelConfigurationRequest()  # noqa: E501
         pass
 
 

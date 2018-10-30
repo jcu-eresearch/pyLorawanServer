@@ -1,4 +1,4 @@
-# swagger_client.InternalApi
+# lorawan_client.InternalApi
 
 All URIs are relative to *https://localhost*
 
@@ -18,12 +18,12 @@ Get the branding for the UI
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.InternalApi()
+api_instance = lorawan_client.InternalApi()
 
 try:
     # Get the branding for the UI
@@ -60,13 +60,13 @@ Log in a user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.InternalApi()
-body = swagger_client.ApiLoginRequest() # ApiLoginRequest | 
+api_instance = lorawan_client.InternalApi()
+body = lorawan_client.ApiLoginRequest() # ApiLoginRequest | 
 
 try:
     # Log in a user
@@ -106,12 +106,12 @@ Get the current user's profile
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.InternalApi()
+api_instance = lorawan_client.InternalApi()
 
 try:
     # Get the current user's profile

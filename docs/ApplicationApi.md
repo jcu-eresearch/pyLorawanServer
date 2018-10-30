@@ -1,4 +1,4 @@
-# swagger_client.ApplicationApi
+# lorawan_client.ApplicationApi
 
 All URIs are relative to *https://localhost*
 
@@ -30,14 +30,14 @@ AddUser adds a user to an application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiAddApplicationUserRequest() # ApiAddApplicationUserRequest | 
+body = lorawan_client.ApiAddApplicationUserRequest() # ApiAddApplicationUserRequest | 
 
 try:
     # AddUser adds a user to an application.
@@ -78,13 +78,13 @@ Create creates the given application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
-body = swagger_client.ApiCreateApplicationRequest() # ApiCreateApplicationRequest | 
+api_instance = lorawan_client.ApplicationApi()
+body = lorawan_client.ApiCreateApplicationRequest() # ApiCreateApplicationRequest | 
 
 try:
     # Create creates the given application.
@@ -124,14 +124,14 @@ CreateHTTPIntegration creates an HTTP application-integration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiHTTPIntegration() # ApiHTTPIntegration | 
+body = lorawan_client.ApiHTTPIntegration() # ApiHTTPIntegration | 
 
 try:
     # CreateHTTPIntegration creates an HTTP application-integration.
@@ -172,12 +172,12 @@ Delete deletes the given application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 
 try:
@@ -218,12 +218,12 @@ DeleteIntegration deletes the application-integration of the given type.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 
 try:
@@ -264,12 +264,12 @@ DeleteUser deletes the user's access to the associated application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 user_id = 'user_id_example' # str | 
 
@@ -312,12 +312,12 @@ Get returns the requested application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 
 try:
@@ -358,12 +358,12 @@ GetHTTPIntegration returns the HTTP application-itegration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 
 try:
@@ -404,12 +404,12 @@ GetUser gets the user that is associated with the application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 user_id = 'user_id_example' # str | 
 
@@ -452,12 +452,12 @@ List lists the available applications.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 limit = 'limit_example' # str | Max number of applications to return in the result-test. (optional)
 offset = 'offset_example' # str | Offset in the result-set (for pagination). (optional)
 organization_id = 'organization_id_example' # str | ID of the organization to filter on. (optional)
@@ -502,12 +502,12 @@ ListIntegrations lists all configured integrations.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 
 try:
@@ -548,12 +548,12 @@ ListUsers lists the users for an application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 limit = 'limit_example' # str | Max number of applications to return in the result-test. (optional)
 offset = 'offset_example' # str | Offset in the result-set (for pagination). (optional)
@@ -598,14 +598,14 @@ Update updates the given application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiUpdateApplicationRequest() # ApiUpdateApplicationRequest | 
+body = lorawan_client.ApiUpdateApplicationRequest() # ApiUpdateApplicationRequest | 
 
 try:
     # Update updates the given application.
@@ -646,14 +646,14 @@ UpdateHTTPIntegration updates the HTTP application-integration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiHTTPIntegration() # ApiHTTPIntegration | 
+body = lorawan_client.ApiHTTPIntegration() # ApiHTTPIntegration | 
 
 try:
     # UpdateHTTPIntegration updates the HTTP application-integration.
@@ -694,15 +694,15 @@ UpdateUser sets the user's access to the associated application.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationApi()
+api_instance = lorawan_client.ApplicationApi()
 id = 'id_example' # str | 
 user_id = 'user_id_example' # str | 
-body = swagger_client.ApiUpdateApplicationUserRequest() # ApiUpdateApplicationUserRequest | 
+body = lorawan_client.ApiUpdateApplicationUserRequest() # ApiUpdateApplicationUserRequest | 
 
 try:
     # UpdateUser sets the user's access to the associated application.

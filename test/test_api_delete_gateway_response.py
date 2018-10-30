@@ -32,7 +32,7 @@ class TestApiDeleteGatewayResponse(unittest.TestCase):
     def testApiDeleteGatewayResponse(self):
         """Test ApiDeleteGatewayResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_delete_gateway_response.ApiDeleteGatewayResponse()  # noqa: E501
+        # model = lorawan_client.models.api_delete_gateway_response.ApiDeleteGatewayResponse()  # noqa: E501
         pass
 
 

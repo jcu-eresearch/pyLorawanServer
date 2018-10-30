@@ -32,7 +32,7 @@ class TestApiOrganizationLink(unittest.TestCase):
     def testApiOrganizationLink(self):
         """Test ApiOrganizationLink"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_organization_link.ApiOrganizationLink()  # noqa: E501
+        # model = lorawan_client.models.api_organization_link.ApiOrganizationLink()  # noqa: E501
         pass
 
 

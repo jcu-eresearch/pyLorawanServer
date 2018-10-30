@@ -32,7 +32,7 @@ class TestApiPingRX(unittest.TestCase):
     def testApiPingRX(self):
         """Test ApiPingRX"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_ping_rx.ApiPingRX()  # noqa: E501
+        # model = lorawan_client.models.api_ping_rx.ApiPingRX()  # noqa: E501
         pass
 
 

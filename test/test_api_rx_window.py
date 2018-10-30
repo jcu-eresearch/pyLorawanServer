@@ -32,7 +32,7 @@ class TestApiRXWindow(unittest.TestCase):
     def testApiRXWindow(self):
         """Test ApiRXWindow"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_rx_window.ApiRXWindow()  # noqa: E501
+        # model = lorawan_client.models.api_rx_window.ApiRXWindow()  # noqa: E501
         pass
 
 

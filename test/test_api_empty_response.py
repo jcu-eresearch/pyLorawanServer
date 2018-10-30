@@ -32,7 +32,7 @@ class TestApiEmptyResponse(unittest.TestCase):
     def testApiEmptyResponse(self):
         """Test ApiEmptyResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_empty_response.ApiEmptyResponse()  # noqa: E501
+        # model = lorawan_client.models.api_empty_response.ApiEmptyResponse()  # noqa: E501
         pass
 
 

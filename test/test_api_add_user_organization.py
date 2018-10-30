@@ -32,7 +32,7 @@ class TestApiAddUserOrganization(unittest.TestCase):
     def testApiAddUserOrganization(self):
         """Test ApiAddUserOrganization"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_add_user_organization.ApiAddUserOrganization()  # noqa: E501
+        # model = lorawan_client.models.api_add_user_organization.ApiAddUserOrganization()  # noqa: E501
         pass
 
 

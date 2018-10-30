@@ -32,7 +32,7 @@ class TestApiGetFrameLogsResponse(unittest.TestCase):
     def testApiGetFrameLogsResponse(self):
         """Test ApiGetFrameLogsResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_get_frame_logs_response.ApiGetFrameLogsResponse()  # noqa: E501
+        # model = lorawan_client.models.api_get_frame_logs_response.ApiGetFrameLogsResponse()  # noqa: E501
         pass
 
 

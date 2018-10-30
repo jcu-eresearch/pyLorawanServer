@@ -32,7 +32,7 @@ class TestApiListIntegrationResponse(unittest.TestCase):
     def testApiListIntegrationResponse(self):
         """Test ApiListIntegrationResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_list_integration_response.ApiListIntegrationResponse()  # noqa: E501
+        # model = lorawan_client.models.api_list_integration_response.ApiListIntegrationResponse()  # noqa: E501
         pass
 
 

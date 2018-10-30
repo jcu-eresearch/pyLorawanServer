@@ -1,4 +1,4 @@
-# swagger_client.UserApi
+# lorawan_client.UserApi
 
 All URIs are relative to *https://localhost*
 
@@ -21,13 +21,13 @@ Create a new user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
-body = swagger_client.ApiAddUserRequest() # ApiAddUserRequest | 
+api_instance = lorawan_client.UserApi()
+body = lorawan_client.ApiAddUserRequest() # ApiAddUserRequest | 
 
 try:
     # Create a new user.
@@ -67,12 +67,12 @@ Delete a user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lorawan_client.UserApi()
 id = 'id_example' # str | 
 
 try:
@@ -113,12 +113,12 @@ Get data for a particular user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lorawan_client.UserApi()
 id = 'id_example' # str | 
 
 try:
@@ -159,12 +159,12 @@ Get user list.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lorawan_client.UserApi()
 limit = 56 # int | Max number of user to return in the result-set. (optional)
 offset = 56 # int | Offset in the result-set (for pagination). (optional)
 search = 'search_example' # str | When provided, the given string will be used to search on username. (optional)
@@ -209,14 +209,14 @@ Update an existing user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lorawan_client.UserApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiUpdateUserRequest() # ApiUpdateUserRequest | 
+body = lorawan_client.ApiUpdateUserRequest() # ApiUpdateUserRequest | 
 
 try:
     # Update an existing user.
@@ -257,14 +257,14 @@ UpdatePassword updates a password.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lorawan_client.UserApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiUpdateUserPasswordRequest() # ApiUpdateUserPasswordRequest | 
+body = lorawan_client.ApiUpdateUserPasswordRequest() # ApiUpdateUserPasswordRequest | 
 
 try:
     # UpdatePassword updates a password.

@@ -32,7 +32,7 @@ class TestApiListDownlinkQueueItemsResponse(unittest.TestCase):
     def testApiListDownlinkQueueItemsResponse(self):
         """Test ApiListDownlinkQueueItemsResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_list_downlink_queue_items_response.ApiListDownlinkQueueItemsResponse()  # noqa: E501
+        # model = lorawan_client.models.api_list_downlink_queue_items_response.ApiListDownlinkQueueItemsResponse()  # noqa: E501
         pass
 
 

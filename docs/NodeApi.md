@@ -1,4 +1,4 @@
-# swagger_client.NodeApi
+# lorawan_client.NodeApi
 
 All URIs are relative to *https://localhost*
 
@@ -24,14 +24,14 @@ Activate (re)activates the node (only when ABP is set to true).
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 dev_eui = 'dev_eui_example' # str | 
-body = swagger_client.ApiActivateNodeRequest() # ApiActivateNodeRequest | 
+body = lorawan_client.ApiActivateNodeRequest() # ApiActivateNodeRequest | 
 
 try:
     # Activate (re)activates the node (only when ABP is set to true).
@@ -72,13 +72,13 @@ Create creates the given node.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
-body = swagger_client.ApiCreateNodeRequest() # ApiCreateNodeRequest | 
+api_instance = lorawan_client.NodeApi()
+body = lorawan_client.ApiCreateNodeRequest() # ApiCreateNodeRequest | 
 
 try:
     # Create creates the given node.
@@ -118,12 +118,12 @@ Delete deletes the node matching the given DevEUI.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 dev_eui = 'dev_eui_example' # str | 
 
 try:
@@ -164,12 +164,12 @@ Get returns the node for the requested DevEUI.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 dev_eui = 'dev_eui_example' # str | 
 
 try:
@@ -210,12 +210,12 @@ GetActivation returns the current activation details of the node (OTAA and ABP).
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 dev_eui = 'dev_eui_example' # str | 
 
 try:
@@ -256,12 +256,12 @@ GetFrameLogs returns the uplink / downlink frame log for the given DevEUI.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 dev_eui = 'dev_eui_example' # str | 
 limit = 'limit_example' # str | Max number of frames to return in the result-set. (optional)
 offset = 'offset_example' # str | Offset of the result-set (for pagination). (optional)
@@ -306,12 +306,12 @@ GetRandomDevAddr returns a random DevAddr taking the NwkID prefix into account.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 
 try:
     # GetRandomDevAddr returns a random DevAddr taking the NwkID prefix into account.
@@ -348,12 +348,12 @@ ListByApplicationID lists the nodes by the given application ID, sorted by the n
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 application_id = 'application_id_example' # str | 
 limit = 'limit_example' # str | Max number of nodes to return in the result-set. (optional)
 offset = 'offset_example' # str | Offset of the result-set (for pagination). (optional)
@@ -400,14 +400,14 @@ Update updates the node matching the given DevEUI.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NodeApi()
+api_instance = lorawan_client.NodeApi()
 dev_eui = 'dev_eui_example' # str | 
-body = swagger_client.ApiUpdateNodeRequest() # ApiUpdateNodeRequest | 
+body = lorawan_client.ApiUpdateNodeRequest() # ApiUpdateNodeRequest | 
 
 try:
     # Update updates the node matching the given DevEUI.

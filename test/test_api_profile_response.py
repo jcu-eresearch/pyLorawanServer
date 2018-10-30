@@ -32,7 +32,7 @@ class TestApiProfileResponse(unittest.TestCase):
     def testApiProfileResponse(self):
         """Test ApiProfileResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_profile_response.ApiProfileResponse()  # noqa: E501
+        # model = lorawan_client.models.api_profile_response.ApiProfileResponse()  # noqa: E501
         pass
 
 

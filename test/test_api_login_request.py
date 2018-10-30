@@ -32,7 +32,7 @@ class TestApiLoginRequest(unittest.TestCase):
     def testApiLoginRequest(self):
         """Test ApiLoginRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_login_request.ApiLoginRequest()  # noqa: E501
+        # model = lorawan_client.models.api_login_request.ApiLoginRequest()  # noqa: E501
         pass
 
 

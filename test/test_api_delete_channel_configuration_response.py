@@ -32,7 +32,7 @@ class TestApiDeleteChannelConfigurationResponse(unittest.TestCase):
     def testApiDeleteChannelConfigurationResponse(self):
         """Test ApiDeleteChannelConfigurationResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_delete_channel_configuration_response.ApiDeleteChannelConfigurationResponse()  # noqa: E501
+        # model = lorawan_client.models.api_delete_channel_configuration_response.ApiDeleteChannelConfigurationResponse()  # noqa: E501
         pass
 
 

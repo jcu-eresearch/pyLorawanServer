@@ -32,7 +32,7 @@ class TestApiCreateExtraChannelRequest(unittest.TestCase):
     def testApiCreateExtraChannelRequest(self):
         """Test ApiCreateExtraChannelRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_create_extra_channel_request.ApiCreateExtraChannelRequest()  # noqa: E501
+        # model = lorawan_client.models.api_create_extra_channel_request.ApiCreateExtraChannelRequest()  # noqa: E501
         pass
 
 

@@ -1,4 +1,4 @@
-# swagger_client.GatewayApi
+# lorawan_client.GatewayApi
 
 All URIs are relative to *https://localhost*
 
@@ -32,13 +32,13 @@ Create creates the given gateway.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
-body = swagger_client.ApiCreateGatewayRequest() # ApiCreateGatewayRequest | 
+api_instance = lorawan_client.GatewayApi()
+body = lorawan_client.ApiCreateGatewayRequest() # ApiCreateGatewayRequest | 
 
 try:
     # Create creates the given gateway.
@@ -78,13 +78,13 @@ CreateChannelConfiguration creates the given channel-configuration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
-body = swagger_client.ApiCreateChannelConfigurationRequest() # ApiCreateChannelConfigurationRequest | 
+api_instance = lorawan_client.GatewayApi()
+body = lorawan_client.ApiCreateChannelConfigurationRequest() # ApiCreateChannelConfigurationRequest | 
 
 try:
     # CreateChannelConfiguration creates the given channel-configuration.
@@ -124,13 +124,13 @@ CreateExtraChannel creates the given extra channel.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
-body = swagger_client.ApiCreateExtraChannelRequest() # ApiCreateExtraChannelRequest | 
+api_instance = lorawan_client.GatewayApi()
+body = lorawan_client.ApiCreateExtraChannelRequest() # ApiCreateExtraChannelRequest | 
 
 try:
     # CreateExtraChannel creates the given extra channel.
@@ -170,12 +170,12 @@ Delete deletes the gateway matching the given mac address.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 mac = 'mac_example' # str | 
 
 try:
@@ -216,12 +216,12 @@ DeleteChannelConfiguration deletes the channel-configuration matching the given 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 id = 'id_example' # str | 
 
 try:
@@ -262,12 +262,12 @@ DeleteExtraChannel deletes the extra channel matching the given id.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 id = 'id_example' # str | 
 
 try:
@@ -308,12 +308,12 @@ GenerateToken issues a JWT token which can be used by the gateway for authentica
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 mac = 'mac_example' # str | 
 
 try:
@@ -354,12 +354,12 @@ Get returns the gateway for the requested mac address.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 mac = 'mac_example' # str | 
 
 try:
@@ -400,12 +400,12 @@ GetChannelConfiguration returns the channel-configuration for the given ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 id = 'id_example' # str | 
 
 try:
@@ -446,12 +446,12 @@ GetExtraChannelsForChannelConfigurationID returns the extra channels for the giv
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 id = 'id_example' # str | 
 
 try:
@@ -492,12 +492,12 @@ GetLastPing returns the last emitted ping and gateways receiving this ping.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 mac = 'mac_example' # str | 
 
 try:
@@ -538,12 +538,12 @@ GetStats lists the gateway stats given the query parameters.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 mac = 'mac_example' # str | 
 interval = 'interval_example' # str | Aggregation interval.  One of \"second\", \"minute\", \"hour\", \"day\", \"week\", \"month\", \"quarter\", \"year\".  Case insensitive. (optional)
 start_timestamp = 'start_timestamp_example' # str | Timestamp to start from. (optional)
@@ -590,12 +590,12 @@ List lists the gateways.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 limit = 56 # int | Max number of nodes to return in the result-set. (optional)
 offset = 56 # int | Offset of the result-set (for pagination). (optional)
 organization_id = 'organization_id_example' # str | ID of the organization for which to filter on, when left blank the response will return all gateways to which the user has access to. (optional)
@@ -640,12 +640,12 @@ ListChannelConfigurations returns all channel-configurations.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 
 try:
     # ListChannelConfigurations returns all channel-configurations.
@@ -682,14 +682,14 @@ Update updates the gateway matching the given mac address.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 mac = 'mac_example' # str | 
-body = swagger_client.ApiUpdateGatewayRequest() # ApiUpdateGatewayRequest | 
+body = lorawan_client.ApiUpdateGatewayRequest() # ApiUpdateGatewayRequest | 
 
 try:
     # Update updates the gateway matching the given mac address.
@@ -730,14 +730,14 @@ UpdateChannelConfiguration updates the given channel-configuration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiUpdateChannelConfigurationRequest() # ApiUpdateChannelConfigurationRequest | 
+body = lorawan_client.ApiUpdateChannelConfigurationRequest() # ApiUpdateChannelConfigurationRequest | 
 
 try:
     # UpdateChannelConfiguration updates the given channel-configuration.
@@ -778,14 +778,14 @@ UpdateExtraChannel updates the given extra channel.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GatewayApi()
+api_instance = lorawan_client.GatewayApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiUpdateExtraChannelRequest() # ApiUpdateExtraChannelRequest | 
+body = lorawan_client.ApiUpdateExtraChannelRequest() # ApiUpdateExtraChannelRequest | 
 
 try:
     # UpdateExtraChannel updates the given extra channel.

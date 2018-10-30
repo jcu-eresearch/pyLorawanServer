@@ -32,7 +32,7 @@ class TestApiCreateGatewayResponse(unittest.TestCase):
     def testApiCreateGatewayResponse(self):
         """Test ApiCreateGatewayResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_create_gateway_response.ApiCreateGatewayResponse()  # noqa: E501
+        # model = lorawan_client.models.api_create_gateway_response.ApiCreateGatewayResponse()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestApiGetUserResponse(unittest.TestCase):
     def testApiGetUserResponse(self):
         """Test ApiGetUserResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_get_user_response.ApiGetUserResponse()  # noqa: E501
+        # model = lorawan_client.models.api_get_user_response.ApiGetUserResponse()  # noqa: E501
         pass
 
 

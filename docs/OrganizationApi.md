@@ -1,4 +1,4 @@
-# swagger_client.OrganizationApi
+# lorawan_client.OrganizationApi
 
 All URIs are relative to *https://localhost*
 
@@ -25,14 +25,14 @@ Add a new user to an organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiOrganizationUserRequest() # ApiOrganizationUserRequest | 
+body = lorawan_client.ApiOrganizationUserRequest() # ApiOrganizationUserRequest | 
 
 try:
     # Add a new user to an organization.
@@ -73,13 +73,13 @@ Create a new organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
-body = swagger_client.ApiCreateOrganizationRequest() # ApiCreateOrganizationRequest | 
+api_instance = lorawan_client.OrganizationApi()
+body = lorawan_client.ApiCreateOrganizationRequest() # ApiCreateOrganizationRequest | 
 
 try:
     # Create a new organization.
@@ -119,12 +119,12 @@ Delete an organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
 
 try:
@@ -165,12 +165,12 @@ Delete a user from an organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
 user_id = 'user_id_example' # str | 
 
@@ -213,12 +213,12 @@ Get data for a particular organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
 
 try:
@@ -259,12 +259,12 @@ Get data for a particular organization user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
 user_id = 'user_id_example' # str | 
 
@@ -307,12 +307,12 @@ Get organization list.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 limit = 56 # int | Max number of organizations to return in the result-set. (optional)
 offset = 56 # int | Offset in the result-set (for pagination). (optional)
 search = 'search_example' # str | When provided, the given string will be used to search on displayName. (optional)
@@ -357,12 +357,12 @@ Get organization's user list.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
 limit = 56 # int | Max number of users to return in the result-set. (optional)
 offset = 56 # int | Offset in the result-set (for pagination). (optional)
@@ -407,14 +407,14 @@ Update an existing organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
-body = swagger_client.ApiUpdateOrganizationRequest() # ApiUpdateOrganizationRequest | 
+body = lorawan_client.ApiUpdateOrganizationRequest() # ApiUpdateOrganizationRequest | 
 
 try:
     # Update an existing organization.
@@ -455,15 +455,15 @@ Update a user in an organization.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.OrganizationApi()
+api_instance = lorawan_client.OrganizationApi()
 id = 'id_example' # str | 
 user_id = 'user_id_example' # str | 
-body = swagger_client.ApiOrganizationUserRequest() # ApiOrganizationUserRequest | 
+body = lorawan_client.ApiOrganizationUserRequest() # ApiOrganizationUserRequest | 
 
 try:
     # Update a user in an organization.

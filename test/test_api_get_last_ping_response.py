@@ -32,7 +32,7 @@ class TestApiGetLastPingResponse(unittest.TestCase):
     def testApiGetLastPingResponse(self):
         """Test ApiGetLastPingResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_get_last_ping_response.ApiGetLastPingResponse()  # noqa: E501
+        # model = lorawan_client.models.api_get_last_ping_response.ApiGetLastPingResponse()  # noqa: E501
         pass
 
 

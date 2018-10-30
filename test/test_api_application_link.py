@@ -32,7 +32,7 @@ class TestApiApplicationLink(unittest.TestCase):
     def testApiApplicationLink(self):
         """Test ApiApplicationLink"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.api_application_link.ApiApplicationLink()  # noqa: E501
+        # model = lorawan_client.models.api_application_link.ApiApplicationLink()  # noqa: E501
         pass
 
 

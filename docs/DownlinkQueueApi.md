@@ -1,4 +1,4 @@
-# swagger_client.DownlinkQueueApi
+# lorawan_client.DownlinkQueueApi
 
 All URIs are relative to *https://localhost*
 
@@ -18,12 +18,12 @@ Delete deletes an item from the queue.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DownlinkQueueApi()
+api_instance = lorawan_client.DownlinkQueueApi()
 dev_eui = 'dev_eui_example' # str | 
 id = 'id_example' # str | 
 
@@ -66,14 +66,14 @@ Enqueue adds the given item to the queue. When the node operates in Class-C mode
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DownlinkQueueApi()
+api_instance = lorawan_client.DownlinkQueueApi()
 dev_eui = 'dev_eui_example' # str | 
-body = swagger_client.ApiEnqueueDownlinkQueueItemRequest() # ApiEnqueueDownlinkQueueItemRequest | 
+body = lorawan_client.ApiEnqueueDownlinkQueueItemRequest() # ApiEnqueueDownlinkQueueItemRequest | 
 
 try:
     # Enqueue adds the given item to the queue. When the node operates in Class-C mode, the data will be pushed directly to the network-server.
@@ -114,12 +114,12 @@ List lists the items in the queue for the given node.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lorawan_client
+from lorawan_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DownlinkQueueApi()
+api_instance = lorawan_client.DownlinkQueueApi()
 dev_eui = 'dev_eui_example' # str | 
 
 try:
